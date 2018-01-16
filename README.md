@@ -1,2 +1,7 @@
 # CS362-001-W2018
+
+Josh Diedrich
+
+932520268
+
 CS 362. SOFTWARE ENGINEERING II Winter 2018 (on campus)
