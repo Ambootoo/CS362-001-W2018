@@ -10,7 +10,7 @@ package calendar;
 *	need to function
 *	
 **/
-public class CalendarUtil {
+public class  CalendarUtil {
 	
 	/** integers specifying the number of days in each month **/
 	public static int DaysInMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
