@@ -122,7 +122,7 @@ public class Appt implements  Comparable<Appt>{
             		this.valid=false;
             	else
                 	if(startMonth<0 || startMonth>11)
-                		this.valid=false;
+                		this.valid=false;   //cant test this
                 	else
                 		this.valid=true;
     }

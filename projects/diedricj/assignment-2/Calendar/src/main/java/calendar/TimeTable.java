@@ -92,7 +92,7 @@ public class TimeTable {
 	        
 	        //Make sure that the firstDay is before the last day
 	        if (!firstDay.before(lastDay)) {
-	            return result;
+	            return result;    //not testable
 	        }
 	        
 	        //Get the first recurrence taken care of
