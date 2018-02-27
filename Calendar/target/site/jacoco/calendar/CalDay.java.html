@@ -75,10 +75,10 @@ public class CalDay {
 <span class="fc bfc" id="L75" title="All 2 branches covered.">			for (int i = 0; i &lt; getAppts().size(); i++) {</span>
 				//Put the appointment in the correct order - finish this
 <span class="fc" id="L77">				if (((Appt)getAppts().get(i)).getStartHour() &gt;</span>
-<span class="pc bpc" id="L78" title="1 of 2 branches missed.">										appt.getStartHour()) {</span>
+<span class="fc bfc" id="L78" title="All 2 branches covered.">										appt.getStartHour()) {</span>
 					
-<span class="nc" id="L80">					getAppts().add(i, appt);</span>
-<span class="nc" id="L81">					return;</span>
+<span class="fc" id="L80">					getAppts().add(i, appt);</span>
+<span class="fc" id="L81">					return;</span>
 				}
 			}
 		    //The appointment hasn't been added yet, so add it

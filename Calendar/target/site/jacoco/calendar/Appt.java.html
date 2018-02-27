@@ -112,14 +112,14 @@ public class Appt implements  Comparable&lt;Appt&gt;{
     private void isValid() {
 <span class="fc" id="L113">    	int NumDaysInMonth= CalendarUtil.NumDaysInMonth(startYear,startMonth-1);</span>
     				
-<span class="pc bpc" id="L115" title="2 of 4 branches missed.">    	if(startHour&lt;0 || startHour&gt;23)</span>
-<span class="nc" id="L116">    		this.valid=false;</span>
+<span class="pc bpc" id="L115" title="1 of 4 branches missed.">    	if(startHour&lt;0 || startHour&gt;23)</span>
+<span class="fc" id="L116">    		this.valid=false;</span>
     	else
-<span class="pc bpc" id="L118" title="2 of 4 branches missed.">        	if(startMinute&lt;0 || startMinute&gt;59)</span>
-<span class="nc" id="L119">        		this.valid=false;</span>
+<span class="fc bfc" id="L118" title="All 4 branches covered.">        	if(startMinute&lt;0 || startMinute&gt;59)</span>
+<span class="fc" id="L119">        		this.valid=false;</span>
         	else
-<span class="pc bpc" id="L121" title="2 of 4 branches missed.">            	if(startDay&lt;1 || startDay&gt;NumDaysInMonth)</span>
-<span class="nc" id="L122">            		this.valid=false;</span>
+<span class="fc bfc" id="L121" title="All 4 branches covered.">            	if(startDay&lt;1 || startDay&gt;NumDaysInMonth)</span>
+<span class="fc" id="L122">            		this.valid=false;</span>
             	else
 <span class="pc bpc" id="L124" title="1 of 4 branches missed.">                	if(startMonth&lt;0 || startMonth&gt;11)</span>
 <span class="fc" id="L125">                		this.valid=false;</span>

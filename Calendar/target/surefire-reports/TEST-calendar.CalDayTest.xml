@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="calendar.CalDayTest" time="0.063" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="calendar.CalDayTest" time="0.166" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9+181"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/Jdeezz/A2/CS362-001-W2018/Calendar"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Jdeezz/Assignment4/CS362-001-W2018/Calendar"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/Jdeezz/A2/CS362-001-W2018/Calendar"/>
+    <property name="user.dir" value="/Users/Jdeezz/Assignment4/CS362-001-W2018/Calendar"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="9+181"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -63,10 +63,10 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="calendar.CalDayTest" name="addApptOrder" time="0.061"/>
-  <testcase classname="calendar.CalDayTest" name="ToString" time="0"/>
-  <testcase classname="calendar.CalDayTest" name="getDay" time="0.001"/>
-  <testcase classname="calendar.CalDayTest" name="addAppt" time="0"/>
+  <testcase classname="calendar.CalDayTest" name="addApptOrder" time="0.164"/>
+  <testcase classname="calendar.CalDayTest" name="ToString" time="0.001"/>
+  <testcase classname="calendar.CalDayTest" name="getDay" time="0"/>
+  <testcase classname="calendar.CalDayTest" name="addAppt" time="0.001"/>
   <testcase classname="calendar.CalDayTest" name="getYear" time="0"/>
-  <testcase classname="calendar.CalDayTest" name="getMonth" time="0.001"/>
+  <testcase classname="calendar.CalDayTest" name="getMonth" time="0"/>
 </testsuite>
