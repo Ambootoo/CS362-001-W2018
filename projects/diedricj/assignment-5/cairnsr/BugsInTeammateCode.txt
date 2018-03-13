@@ -1,4 +1,4 @@
-﻿Bug-Reports
+Bug-Reports
 
 
 The first bug found in my teammates code was the check for a valid day in the TimeTable class.  The statement is supposed to check and make sure that the first day if before the last day.  The correct code would look like this:
